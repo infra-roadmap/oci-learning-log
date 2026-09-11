@@ -1,2 +1,3 @@
 <img width="2720" height="2120" alt="oci-aws-mapping" src="https://github.com/user-attachments/assets/96713283-3f39-42a8-811c-0fadf9d22723" />
 <img width="2720" height="1920" alt="oci-structure" src="https://github.com/user-attachments/assets/d0663655-e853-49a0-921c-13b8917999ad" />
+今回、開発環境用にコンパートメントをdevとして分離した上で、VCN・Public Subnet・Computeインスタンスを構築した。コンパートメントを本番用と分けたのは、権限やコスト管理の単位をプロジェクト単位ではなく用途単位で区切ることで、開発中の試行錯誤が誤って本番環境に影響しないようにするためである。ComputeインスタンスのシェイプにはVM.Standard.E2.1.Microをあえて選び直しているが、これはOCIのAlways Free枠に含まれる構成であり、検証目的の環境に対して継続的なコストをかけたくなかったという判断による。OSにUbuntuを選定したのは、社内の他の検証環境と手順を揃え、後述のセットアップスクリプトをそのまま流用できるようにするためである。Public Subnetを使用しているのは、現時点では踏み台やロードバランサーを介さず直接SSHで検証できるようにする必要があったためで、本番運用に移す際にはPrivate Subnet構成への見直しを予定している。
