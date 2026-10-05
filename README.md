@@ -1,8 +1,5 @@
 ＜コースB成果物 10月4週＞
-
-
-
-
+<img width="2100" height="1350" alt="image" src="https://github.com/user-attachments/assets/2261e7ee-f492-4663-82aa-76139d40ecf0" />
 
 ＜コースA成果物 9月4週＞
 <img width="2720" height="2120" alt="oci-aws-mapping" src="https://github.com/user-attachments/assets/96713283-3f39-42a8-811c-0fadf9d22723" />
