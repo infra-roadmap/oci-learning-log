@@ -1,3 +1,6 @@
+＜コースA成果物 10月4週＞
+<img width="1400" height="830" alt="oci-network-diagram" src="https://github.com/user-attachments/assets/89105422-e4e1-4448-8e85-dcd5b73d6084" />
+
 ＜コースB成果物 10月4週＞
 <img width="2100" height="1350" alt="image" src="https://github.com/user-attachments/assets/2261e7ee-f492-4663-82aa-76139d40ecf0" />
 
